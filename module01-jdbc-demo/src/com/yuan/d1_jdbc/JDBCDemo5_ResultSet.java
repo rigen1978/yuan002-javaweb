@@ -3,6 +3,7 @@ package com.yuan.d1_jdbc;
 import com.yuan.pojo.Account;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 import org.junit.Test;
 
 /**
@@ -60,7 +61,7 @@ public class JDBCDemo5_ResultSet {
   */
   @Test
   public void testResultSet2() throws Exception {
-    ArrayList<Account> accountList = new ArrayList<>();
+    List<Account> accountList = new ArrayList<>();
 
     String url = "jdbc:mysql:///db1?useSSL=false";
     String username = "root";
