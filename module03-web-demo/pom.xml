@@ -15,6 +15,18 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<dependencies>
+		<!--servletの依頼-->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<!--ここは要注意-->
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+
 	<build>
 		<plugins>
 			<!-- tomcat 插件 -->
