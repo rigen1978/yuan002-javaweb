@@ -54,9 +54,9 @@
 				<version>2.2</version>
 				<configuration>
 					<!--    端口号      -->
-					<port>8080</port>
+					<!--<port>8080</port>-->
 					<!--     路径     -->
-					<path>/</path>
+					<!--<path>/</path>-->
 				</configuration>
 			</plugin>
 		</plugins>
