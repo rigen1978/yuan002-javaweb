@@ -15,6 +15,9 @@
 	<title>Title</title>
 </head>
 <body>
+
+<h1>${user.username}さま,ようこそ</h1>
+
 <input type="button" value="新規登録" id="add"><br>
 <hr>
 <table border="1" cellspacing="0" width="80%">
